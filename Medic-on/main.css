@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.follow{
+    padding-left: 10px;
+   
+}
+.follow a{
+    display: inline-block;
+    white-space: nowrap;
+    
+
+}
+.follow img{
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.disclaimers{
+    padding-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.profile img{
+    border-radius: 22px;
+    transition: all;
+}
+
+.top-nav{
+    text-align: center;
+    background-color: rgb(15, 197, 197);
+    
+    padding: 20px;
+    
+}
+.top-nav h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size:50px;
+    text-shadow: 0cap;
+}
+.middle-nav{
+    padding: 10px 15px;
+    background-color: rgb(121, 184, 214);
+    
+}
+.middle-nav select{
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(146, 222, 245);
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-nav a{
+    text-align: right;
+    right: 10px;
+    position: fixed;
+    top: 0%;
+    margin-top: 3%;
+    padding-right: 10px;
+}
+.top-nav a:hover{
+    width: 52px;
+    background-color: rgb(161, 247, 158);
+}
+
+.Hi{
+  background-color:rgb(40, 152, 160);  
+  text-align: center;
+  font-weight: 100;
+  padding: 10px;
+}
+.gauge-meter{
+    background-color: rgb(241, 213, 178);
+}
+.appoinments > .app4{
+    padding: 0 8px;
+
+}
+.appoinments{
+    background-color: antiquewhite;
+    padding-left: 15px;
+    padding: 20px;
+    
+    
+}
+.icon-ic_next_cheveron:before {
+    content: "\e93c";
+}
+.app4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.app4 a{
+    text-decoration: none;
+    color: rgb(173, 65, 216);
+    padding: 10px 20px;
+    
+    
+}
+.horizontal-list-card{
+    box-sizing: border-box;
+    border: 2px solid  lightblue;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+.glide__slide{
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+   
+    
+
+}
+.glide__slide figure img{
+    width: 15%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.container1{
+    background-color: rgb(174, 236, 221);
+    display: flex;
+    align-items: center;
+
+}
+.container1 img{
+    width: 20%;
+    height: 20%;
+    flex-basis: 70%;
+    order: 2;
+
+}
+.container1 h4 p{
+    
+    border-radius: 10px;
+    background-color: lemonchiffon;
+}
+
+
+.container2   {
+    
+    position: relative;
+    padding: 20px;
+    padding-left: 10%;
+    margin: 10px;
+    float: left;
+    
+}
+.container2 ul li {
+    text-decoration: none;
+    display: flex;
+
+
+}
+.container2 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+.bottom  {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    padding-right: 12%;
+    
+}
+.bottom a {
+    text-decoration: none;
+    color: black;
+}
+.bottom li{
+    list-style: none;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+
+
+    
+   
+
+
+    
+   
+
+
+    
