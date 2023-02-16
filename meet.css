@@ -78,9 +78,33 @@ ul.breadcrumb {
     background-color: aquamarine;
     padding: 20px;
     font-size: medium;
-   
     margin: 10px;
   }
+  .notice{
+    background-color: antiquewhite;
+    float: right; 
+    margin: 10px;
+    padding: 25px;
+    position:absolute;
+    top: 50vh;
+    float: right;
+    right: 0;
+}
+  .notice h3{
+    font-weight: 700;
+    
+  }
+  ol{
+    padding-left: 25px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .Download{
+    
+    padding-top: 30vh;
+    text-align: center;
+  }
+  
   
   
 
