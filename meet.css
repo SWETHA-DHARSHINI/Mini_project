@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: bisque;
+    margin: 10px;
+}
+.meet_logo , .profile_logo , .chat_logo{
+    width: 60px;
+    height: 65px;
+    margin: 10px;
+    
+    
+}
+.chat_logo .profile_logo {
+    margin: 10px;
+    display:block;
+    border: right 20px;
+}
+.profile_logo{
+    margin: 10px;
+    border-radius: 30px;
+    float: right;
+    
+}
+header div{
+  display: flex;
+    
+}
+h1{
+    margin: 8px;
+    font-size: medium;
+    padding: 20px 8px ;
+    
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  ul.breadcrumb li a {
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+   
+  }
+  hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  form input{
+    width: max-content;
+    padding: 10px;
+    align-items: center;
+  }
+  form{
+    
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+  
+  .col-md-4 button{
+    background-color: aquamarine;
+    padding: 20px;
+    font-size: medium;
+   
+    margin: 10px;
+  }
+  
+  
+
