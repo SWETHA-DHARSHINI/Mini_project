@@ -6,28 +6,29 @@
 header{
     background-color: bisque;
     margin: 10px;
+    padding: 10px;
+}
+header,.chat_logo  {
+  float: right;
+  width: 100%;
+}
+.profile_logo{
+  margin: 10px;
+  border-radius: 30px;
+  float: right;
+  right: 0px;
+  
 }
 .meet_logo , .profile_logo , .chat_logo{
     width: 60px;
     height: 65px;
     margin: 10px;
-    
-    
 }
-.chat_logo .profile_logo {
-    margin: 10px;
-    display:block;
-    border: right 20px;
-}
-.profile_logo{
-    margin: 10px;
-    border-radius: 30px;
-    float: right;
-    
-}
+
 header div{
+  position: absolute;
   display: flex;
-    
+  margin-left: 15px; 
 }
 h1{
     margin: 8px;
@@ -86,7 +87,7 @@ ul.breadcrumb {
     margin: 10px;
     padding: 25px;
     position:absolute;
-    top: 50vh;
+    top: 40vh;
     float: right;
     right: 0;
 }
@@ -104,6 +105,15 @@ ul.breadcrumb {
     padding-top: 30vh;
     text-align: center;
   }
+  .Download button{
+    background-color: brown;
+    width: 30vh;
+    margin: 10px;
+    color: aliceblue;
+    padding: 10px;
+  }
+  
+
   
   
   
