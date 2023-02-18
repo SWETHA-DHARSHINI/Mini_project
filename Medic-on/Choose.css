@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+ header,.chat_logo{
+    float: right;
+    width: 100%;
+}
+.profile_logo{
+    margin: 10px;
+    border-radius: 30px;
+    float: right;
+    right: 0px;
+    
+}
+.meet_logo , .profile_logo , .chat_logo{
+    width: 60px;
+    height: 65px;
+    margin: 10px;
+
+}
+header div{
+  position: absolute;
+  display: flex;
+  margin-left: 15px;
+    
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  ul.breadcrumb li a {
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+   
+  }
+  hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  form input{
+    width: max-content;
+    padding: 10px;
+    align-items: center;
+  }
+  form{
+    
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+  .row{
+    position: absolute;
+    align-items: center;
+    margin: 10vh;
+    padding-left: 30vh;
+    
+  }
+  .row li{
+    padding-bottom: 20px;
+  }
+  
+  .row button{
+    background-color: aquamarine;
+    padding: 20px;
+    font-size: medium;
+    margin: 10px;
+    width: 80vh;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+  
+  .notice{
+    background-color: antiquewhite;
+    float: right; 
+    margin: 10px;
+    padding: 25px;
+    position:absolute;
+    top: 30vh;
+    float: right;
+    right: 0;
+}
+  .notice h3{
+    font-weight: 700;
+    
+  }
+  ol{
+    list-style: none;
+    padding-left: 25px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .Download{
+    
+    padding-top: 40vh;
+    text-align: center;
+  }
+  .Download button{
+    background-color: brown;
+    width: 30vh;
+    margin: 10px;
+    color: aliceblue;
+    padding: 10px;
+  }
+  .see_all{
+    position: absolute;
+    
+    float: right;
+    right: 0px;
+    
+    
+  }
+  .see_all a{
+    font-style: normal;
+    color: black;
+    float: right;
+    
+  }
+  .see_all button{
+    background-color: burlywood;
+    width: 30vh;
+    height: 10vh;
+  }
+
+  
